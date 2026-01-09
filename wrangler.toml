@@ -5,7 +5,6 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "tcroneb.qzz.io", custom_domain = true },
   { pattern = "bgtok.qzz.io", custom_domain = true }
 ]
 
