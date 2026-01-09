@@ -1,5 +1,5 @@
 name = "gardevoir"
-main = "build/worker/shim.mjs"
+main = "src/index.mjs"
 compatibility_date = "2026-01-09"
 minify = true
 workers_dev = true
