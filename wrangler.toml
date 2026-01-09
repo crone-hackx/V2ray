@@ -1,4 +1,4 @@
-name = "gardevoir"
+name = "v2ray"
 main = "src/index.mjs"
 compatibility_date = "2026-01-09"
 minify = true
