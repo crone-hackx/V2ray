@@ -1,6 +1,6 @@
 name = "gardevoir"
 main = "build/worker/shim.mjs"
-compatibility_date = "2024-05-23"
+compatibility_date = "2026-01-09"
 minify = true
 workers_dev = true
 
@@ -17,8 +17,8 @@ routes = [
 ]
 
 [[kv_namespaces]]
-binding = "GARDEVOIR"
-id = "85d1a55fa18a4cfcbedc1a65bcd4ad47"
+binding = "SIREN"
+id = "7ce9263ec11c4bd199e5fee9b7d9e862"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
