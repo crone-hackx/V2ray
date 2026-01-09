@@ -13,20 +13,15 @@ routes = [
   { pattern = "support.zoom.us.gardevoir.bluehat358.biz.id", custom_domain = true },  
   { pattern = "cache.netflix.com.gardevoir.bluehat358.biz.id", custom_domain = true },
   { pattern = "quiz.int.vidio.com.gardevoir.bluehat358.biz.id", custom_domain = true },
-  { pattern = "img.email1.vidio.com.gardevoir.bluehat358.biz.id", custom_domain = true },
+  { pattern = "img.email1.vidio.com.gardevoir.bluehat358.biz.id", custom_domain = true }
 ]
 
 [[kv_namespaces]]
 binding = "SIREN"
 id = "7ce9263ec11c4bd199e5fee9b7d9e862"
-[build]
-command = "cargo install -q worker-build && worker-build --release"
-
-[env.dev]
-build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "85dba49f-78a8-4050-a8f0-2185134fa358"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/BlueHat358/BlueHat358-Gardevoir/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/BlueHat358/BlueHat358-Gardevoir/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/BlueHat358/BlueHat358-Gardevoir/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/crone-hackx/V2ray/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/crone-hackx/V2ray/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/crone-hackx/V2ray/refs/heads/master/web/link.html"
