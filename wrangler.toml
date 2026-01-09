@@ -5,15 +5,8 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "gardevoir.bluehat358.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.gardevoir.bluehat358.biz.id", custom_domain = true },
-  { pattern = "df.game.naver.com.gardevoir.bluehat358.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.gardevoir.bluehat358.biz.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.gardevoir.bluehat358.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.gardevoir.bluehat358.biz.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.gardevoir.bluehat358.biz.id", custom_domain = true },
-  { pattern = "quiz.int.vidio.com.gardevoir.bluehat358.biz.id", custom_domain = true },
-  { pattern = "img.email1.vidio.com.gardevoir.bluehat358.biz.id", custom_domain = true }
+  { pattern = "tcroneb.qzz.io", custom_domain = true },
+  { pattern = "bgtok.qzz.io", custom_domain = true }
 ]
 
 [[kv_namespaces]]
